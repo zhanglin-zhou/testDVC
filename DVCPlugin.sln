@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DVCPlugin", "DVCPlugin\DVCPlugin.vcxproj", "{DEC8E2F7-A158-49ED-A2D0-CD363460E45A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DVCPluginPS", "DVCPlugin\DVCPluginPS.vcxproj", "{0E260401-D922-4191-87F4-F1633F04E8D7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DEC8E2F7-A158-49ED-A2D0-CD363460E45A} = {DEC8E2F7-A158-49ED-A2D0-CD363460E45A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC8E2F7-A158-49ED-A2D0-CD363460E45A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DEC8E2F7-A158-49ED-A2D0-CD363460E45A}.Debug|Win32.Build.0 = Debug|Win32
+		{DEC8E2F7-A158-49ED-A2D0-CD363460E45A}.Release|Win32.ActiveCfg = Release|Win32
+		{DEC8E2F7-A158-49ED-A2D0-CD363460E45A}.Release|Win32.Build.0 = Release|Win32
+		{0E260401-D922-4191-87F4-F1633F04E8D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E260401-D922-4191-87F4-F1633F04E8D7}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

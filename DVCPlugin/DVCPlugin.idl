@@ -1,0 +1,25 @@
+// DVCPlugin.idl : IDL source for DVCPlugin
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (DVCPlugin.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+import "tsvirtualchannels.idl";
+[
+	uuid(299C9BC3-BA6E-4F9C-A7FE-DC736C2546B4),
+]
+
+library DVCPluginLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(B2723516-5413-4CD1-81F2-9F5DC7FA5587)		
+	]
+	coclass DVCSamplePlugin
+	{
+		[default] interface IWTSPlugin;
+	};
+};
+

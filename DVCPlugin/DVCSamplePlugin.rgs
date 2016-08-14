@@ -1,0 +1,16 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {B2723516-5413-4CD1-81F2-9F5DC7FA5587} = s 'DVCSamplePlugin Class'
+		{
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Free'
+			}
+			TypeLib = s '{C54B036B-8079-4AA7-BD66-D8CF47704C9C}'
+			Version = s '1.0'
+		}
+	}
+}
