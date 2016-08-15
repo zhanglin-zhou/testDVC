@@ -67,3 +67,9 @@ public:
 };
 
 OBJECT_ENTRY_AUTO(__uuidof(DVCSamplePlugin), CDVCSamplePlugin)
+
+STDAPI VirtualChannelGetInstance(
+	_In_    REFIID refiid,
+	_Inout_ ULONG  *pNumObjs,
+	_Out_   VOID   **ppObjArray
+);
